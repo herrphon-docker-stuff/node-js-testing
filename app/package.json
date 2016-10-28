@@ -1,0 +1,19 @@
+{
+  "name": "js-testing",
+  "version": "1.0.0",
+  "description": "testing in javascript",
+  "author": "First Last <first.last@example.com>",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node_modules/.bin/jasmine-node spec"
+  },
+  "dependencies": {
+    "request": "^2.76.0",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.2"
+  }
+}
