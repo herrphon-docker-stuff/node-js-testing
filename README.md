@@ -1,7 +1,6 @@
 # Testing in Javascript
 
 
-* [Jasmine](https://github.com/jasmine/jasmine)
 
 
 ## Details
@@ -20,3 +19,9 @@
   $ npm install express --save
 
 ```
+
+## Links
+
+* [Jasmine](https://github.com/jasmine/jasmine)
+* [Docker & Node - Best Practices](https://github.com/nodejs/docker-node/blob/master/docs/BestPractices.md)
+
