@@ -1,5 +1,5 @@
 var request = require("request");
-
+var helloWorld = require("../src/server.js")
 var base_url = "http://localhost:3000/"
 
 jasmine.getEnv().defaultTimeoutInterval = 500;

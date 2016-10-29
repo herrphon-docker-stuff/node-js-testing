@@ -7,7 +7,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/server.js",
-    "test": "node_modules/.bin/jasmine-node spec"
+    "test": "jasmine"
   },
   "dependencies": {
     "request": "^2.76.0",

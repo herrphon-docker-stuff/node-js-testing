@@ -1,10 +1,10 @@
 #!/bin/bash -xe
 
+# install required modules of package.json
 npm install
 
-echo "Starting webserver in 3 seconds..."
-sleep 3
-
+# run the tests
 npm test
 
-echo npm start
+# start the app
+npm start

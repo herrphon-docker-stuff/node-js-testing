@@ -8,4 +8,4 @@ ENV PATH ${PATH}:/app/node_modules/.bin
 COPY ./container_content/entry.sh /entry.sh
 CMD ["/entry.sh"]
 
-EXPOSE 8080
+EXPOSE 3000
