@@ -1,5 +1,6 @@
 # Testing in Javascript
 
+* [Dockerhub Link](https://hub.docker.com/r/herrphon/node-js-testing/)
 
 
 
@@ -9,14 +10,15 @@
   # create a package.json file
   $ npm init
 
-  # install jasmine
-  $ npm install jasmine-node --save
+  # install [express.js](http://expressjs.com/)
+  $ npm install express --save
+
+  # install [jasmine](http://jasmine.github.io/pages/getting_started.html)
+  $ npm install --save-dev jasmine
+  $ jasmine init
 
   # install the [request](https://github.com/request/request) module
   $ npm install request --save
-
-  # install [express.js](http://expressjs.com/)
-  $ npm install express --save
 
 ```
 
