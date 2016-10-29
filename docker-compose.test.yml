@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  sut:
+    build: .
+    image: herrphon/node
+    container_name: node
+    volumes:
+      - "./app:/app"
+    command: "npm install && npm test"
+
