@@ -7,5 +7,5 @@ services:
     container_name: node
     volumes:
       - "./app:/app"
-    command: "npm install && npm test"
+    command: "/test.sh"
 
